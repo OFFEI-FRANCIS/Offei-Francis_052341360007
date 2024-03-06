@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="navbar_all">
+        <div class="logo">
+            <h3>Computer</h3>
+            <p>Technology</p>
+        </div>
+
+        <div class="nav_links">
+            <a href="index.html">Home</a>
+            <a href="faculty.html">Faculty</a>
+            <a href="department.html">Department</a>
+            <a href="timetable.html">Students Timetable</a>
+            <a href="payment.html">Payment</a>
+        </div>
+    </div>
+    <section>
+        <div class="faculty_hero" style="background-image: url(./images/computer_science.jpg); height: 300px;">
+        <h1>Payments</h1>
+        </div>
+    </section>
+
+     <div class="container">
+        <h2>Student Payment Form</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="faculty">Faculty:</label>
+                <select id="faculty" name="faculty" required>
+                    <option value="">Select Faculty</option>
+                    <option value="Faculty 1">Faculty 1</option>
+                    <option value="Faculty 2">Faculty 2</option>
+                    <!-- Add more faculty options as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="department">Department:</label>
+                <select id="department" name="department" required>
+                    <option value="">Select Department</option>
+                    <option value="Department 1">Department 1</option>
+                    <option value="Department 2">Department 2</option>
+                    <!-- Add more department options as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="program">Program:</label>
+                <select id="program" name="program" required>
+                    <option value="">Select Program</option>
+                    <option value="Program 1">Program 1</option>
+                    <option value="Program 2">Program 2</option>
+                    <!-- Add more program options as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="level">Level:</label>
+                <select id="level" name="level" required>
+                    <option value="">Select Level</option>
+                    <option value="Level 1">Level 1</option>
+                    <option value="Level 2">Level 2</option>
+                    <!-- Add more level options as needed -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="payment">Amount Paid:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <button type="submit" class="buttons">Submit Payment</button>
+        </form>
+    </div>
+
+    <footer>
+        <p>All Copyright © Reserved 2024 | Faculty of Applied Science and Technology</p>
+    </footer>
+

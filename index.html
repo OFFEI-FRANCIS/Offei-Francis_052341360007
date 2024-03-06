@@ -1,0 +1,66 @@
+ <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+
+<body>
+    <div class="navbar_all">
+        <div class="logo">
+            <h3>Computer</h3>
+            <p>Technology</p>
+        </div>
+        <div class="nav_links">
+            <a href="index.html">Home</a>
+            <a href="faculty.html">Faculty</a>
+            <a href="department.html">Department</a>
+            <a href="timetable.html">Students Timetable</a>
+            <a href="payment.html">Payment</a>
+        </div>
+    </div>
+    <section>
+        <div class="homepage">
+            <div class="home_logo">
+                
+            </div>
+            <h1>Welcome to the best faculty in KsTU</h1>
+            <h1 class="typed-text"></h1>
+
+            <button>
+                <a href="./timetable.pdf" download="document.pdf">Download PDF <span><i class="fa-solid fa-file-pdf"></i></span></a>
+            </button>
+        </div>
+    </section>
+    <footer>
+        <p>All Copyright © Reserved 2024 | Faculty of Applied Science and Technology</p>
+    </footer>
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var options = {
+                strings: ["Faculty of Applied Science and Technology"],
+                typeSpeed: 50,
+                backSpeed: 50,
+                backDelay: 4000,
+                startDelay: 100,
+                showCursor: true,
+                cursorChar: "",
+                loop: true,
+            };
+
+            var typed = new Typed(".typed-text", options);
+        });
+    </script>
+
+</body>
+
+</html>
